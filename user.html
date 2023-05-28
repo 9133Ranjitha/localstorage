@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="user.css">
+<body> 
+    <div id="cardDepart">
+        <input class="Name" type="text" placeholder="name">
+        <input class="user" type="text" placeholder="userName">
+        <input class="email" type="text" placeholder="Email">
+        <input class="num" type="number" placeholder="PhoneNumber">
+        <button onclick="btnChecking()" id="btn">Submit</button>
+    </div>
+    
+</body>
+<script>
+    var cardDepart = document.querySelector("#cardDepart");
+var button = document.getElementById("btn");
+console.log(button)
+function  btnChecking (){
+    //console.log("ranjitha check ")
+   
+    var name = document.querySelector(".Name").value;
+    console.log(name);
+
+    var users = document.querySelector(".user").value;
+    console.log(users);
+
+
+    var emails = document.querySelector(".email").value;
+    console.log(emails);
+
+
+    var number = document.querySelector(".num").value;
+    console.log(number);
+
+
+    var Data = localStorage.setItem(Data.Stringfy("Data"));
+ } 
+</script>
+</html>

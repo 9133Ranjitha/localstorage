@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "msedge",
+            "name": "https://gateway.marvel.com/v1/public/characters?nameStartsWith=Hu&apikey=3ad548118680d3dad3f194ff9e289c93&hash=2bf68c80955bd4f084b8fe653c6683a0&ts=1685222640625",
+            "request": "launch",
+            "url": "https://gateway.marvel.com/v1/public/characters?nameStartsWith=Hu&apikey=3ad548118680d3dad3f194ff9e289c93&hash=2bf68c80955bd4f084b8fe653c6683a0&ts=1685222640625"
+        }
+    ]
+}
